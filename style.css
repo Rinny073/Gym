@@ -1,0 +1,495 @@
+body,html
+{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+.index-page
+{
+	background: url("img/img2.jpg")no-repeat center center fixed;
+	background-size: cover;
+    font-family: 'Baloo Da 2', cursive;
+	font-family: 'Bitter', serif;
+	height:100vh;
+	opacity: 0.8;
+}
+.navbar
+{
+	background-color: rgba(55, 54, 54,0.2);
+}
+.navbar-brand
+{
+	font-size: 2em;
+	text-transform: uppercase;
+	margin-left: 30px;
+	color: #FFFCFC;
+}
+.navbar-nav
+{
+	margin-left: auto;
+}
+.nav-item
+{
+	padding:10px;
+}
+.nav-link
+{
+	text-transform: uppercase;
+}
+.signupstyle
+{
+	background-color: #FF0000;
+
+}
+.center-style
+{
+	height:70vh;
+
+}
+.heading-style>h1,h4
+{
+    color:#FFFCFC;
+    text-align: center;
+}
+h1
+{
+	font-size: 5em;
+	text-transform: uppercase;
+}
+h4
+{ 
+	background-color:#FF0000;
+	text-transform: uppercase;
+}
+.btn-member-style
+{
+	background-color: #FF0000;
+	border-color: #FF0000;
+	border-radius: 0px;
+	text-transform: uppercase;
+}
+.btn-member-style:hover
+{
+	background-color: #FF0000;
+	border-color: #FF0000;
+}
+.first-row
+{
+	height:20vh;
+}
+h2
+{
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: bolder;
+}
+.para-style
+{
+	color: grey;
+	border-top:2px solid red;
+	padding-top:5px;
+}
+img
+{
+	height:100px;
+	width:100px;
+}
+.second-first-inner-row
+{
+	padding-bottom:10px;
+}
+.second-second-inner-row
+{
+	padding-bottom:10px;
+}
+.gym-glyphicon
+{
+	padding-top: 10px;
+}
+.alt-column-style
+{
+	background-color: rgba(255, 137, 137,0.3);
+	padding-top: 10px;
+	border-radius: 20px;
+}
+h6
+{
+	color: #FF0000;
+}
+
+.row-style
+{
+	height:70vh;
+}
+.inside-row-style
+{
+	background-color:white;
+	padding:20px;
+	border-radius: 8px;
+	box-shadow:3px 2px 11px 1px #D4D1D1;
+}
+.glyph
+{
+	height: 40px;
+	width:40px;
+}
+.training-class>h2
+{
+	font-size:1.3em;
+	text-transform: capitalize;
+	color:black;
+}
+.inside-schedule-style
+{
+	background-color:rgba(255, 60, 60);
+	padding:20px;
+	border-radius: 8px;
+	box-shadow:3px 2px 11px 1px #D4D1D1;
+}
+.inside-schedule-style>h2
+{
+	font-size:1.3em;
+	text-transform: capitalize;
+	color:white;
+}
+h5
+{
+	font-weight: bolder;
+}
+.card-text
+{
+	color:grey;
+}
+.btn
+{
+	border-radius: 8px;
+	padding:8px;
+}
+.btn-member-style
+{
+	font-size: 1em;
+	text-transform: capitalize;
+}
+.card
+{
+	margin-left: 20px;
+}
+.card>img
+{
+	background-size: cover;
+}
+.trainer-style
+{
+	background-image: white;
+}
+.grid
+{
+	display:grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+	grid-template-rows: 1fr;
+	grid-gap: 10px;
+}
+.grid-inner
+{
+	margin:10px;
+	box-shadow: 3px 2px 11px 1px #D4D1D1;
+	border-radius: 10px;
+}
+.grid-trainer-gap
+{
+	padding:30px;
+}
+.grid-trainer-gap>img
+{
+   width:100%;
+   height:25vh;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+i
+{
+	padding: 5px;
+}
+@media only screen and (max-width: 575.98px)
+{
+
+	h1
+	{
+		font-size: 3em;
+		padding:20px;
+	}
+	.navbar-brand
+	{
+		font-size: 1.1em;
+		padding:10px;
+	}
+	h2
+	{
+        font-size: 2em;
+	}
+    /*.first-row>h2
+    {
+        font-size: 2em;
+        padding-top: 20px;
+    }
+    .first-row>p
+    {
+        font-size:0.9em;
+    }*/
+    /*.gym-glyphicon1
+    {
+    	background-color: rgba(255, 137, 137,0.3);
+    }
+*/    .alt-column-style
+    {
+    	background-color: white;
+    }
+    .gym-glyphicon1
+    {
+    	background-color: rgba(255, 137, 137,0.3);
+    	border-radius: 20px;
+    }
+    .row-style
+    {
+    	margin-top:20px;
+    }
+    .glyph
+    {
+    	height:30px;
+		width:30px;
+    }
+    .training-class>h2
+    {
+    	font-size: 1em;
+    }
+    .inside-row-style
+    {
+    	padding:5px;
+    }
+    .inside-schedule-style
+    {
+    	padding:10px;
+    }
+    .inside-schedule-style>h2
+	{
+		font-size:1em;
+	}
+    .card
+    {
+    	visibility: hidden;
+    }
+    .first-row
+    {
+        margin:20px 0px;
+    }
+    .first-row>h2
+    {
+    	font-size: 1.5em;
+    }
+    .grid-trainer-gap>img
+	{
+	   height:25vh;
+	}
+	/*.visible>div
+	{
+		visibility: hidden
+	}*/
+}
+@media  (min-width: 576px) and (max-width: 767.98px)
+{
+	.navbar-brand
+	{
+		font-size: 1.4em;
+		margin-left: 0;
+		padding:10px;
+	}
+	h1
+	{
+		font-size: 3em;
+		padding:20px;
+	}
+	img
+    {
+    	height:70px;
+    	width:70px;
+    }
+    .content-style
+    {
+    	font-size: 0.8em;
+    }
+    .first-row
+    {
+        margin:20px 0px;
+    }
+    .first-row p
+    {
+    	visibility: hidden;
+    }
+    .first-row>h2
+    {
+    	padding-top:50px; 
+    	font-size: 2em;
+    }
+    h2
+    {
+    	border-bottom: 2px solid red;
+    }
+    .glyph
+    {
+    	height:30px;
+		width:30px;
+    }
+    .training-class>h2
+    {
+    	font-size: 1em;
+    	border-bottom:none; 
+    }
+    .inside-row-style
+    {
+    	padding:10px;
+    }
+    .inside-schedule-style
+    {
+    	padding:10px;
+    }
+    .inside-schedule-style>h2
+	{
+		font-size:1em;
+	}
+	.card
+	{
+		margin:0;
+	}
+	.card-text
+	{
+		font-size: 0.7em;
+	}
+	.btn
+	{
+		padding:5px;
+	}
+	.btn-member-style
+	{
+		font-size: 0.7em;
+	}
+	.grid-trainer-gap>img
+	{
+	   height:40vh;
+	}
+
+   /* .visible>div
+	{
+		visibility: hidden
+	}*/
+}
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+	
+	h1
+	{
+		font-size: 3.5em;
+		padding:20px;
+	}
+	.navbar-brand
+	{
+		font-size: 1.7em;
+		margin-left: 0;
+		padding:10px;
+	}
+	.first-row>h2
+    {
+        font-size: 2em;
+        padding-top: 20px;
+    }
+    /*.first-row p
+    {
+        font-size:0.9em;
+    }*/
+    .glyph
+    {
+    	height:30px;
+		width:30px;
+    }
+    .training-class>h2
+    {
+    	font-size: 1em;
+    }
+    .inside-row-style
+    {
+    	padding:5px;
+    }
+    .inside-schedule-style
+    {
+    	padding:10px;
+    }
+    .inside-schedule-style>h2
+	{
+		font-size:1em;
+	}
+	.row-style
+	{
+		margin-top: 20px;
+	}
+	/*.grid
+	{
+		grid-gap:20px;
+	}*/
+	.grid-trainer-gap>img
+	{
+	   width:100%;
+	   height:30vh;
+	   border-radius: 10px;
+	   margin-bottom: 20px;
+	}
+	.first-row
+    {
+        margin:20px 0px;
+    }
+    /*.card
+    {
+    	margin-left:10px;
+    }*/
+    /*.gym-glyphicon
+    {
+    	padding-right: 10px;
+    }*/
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	
+	.grid-trainer-gap>img
+	{
+	   height:20vh;
+	}
+
+}
+/*@media (min-width: 1200px) {
+	.grid
+	{
+		grid-gap: 30px;
+	}
+	.first-row
+	{
+		height:20vh;
+	}
+	.para-style
+	{
+		font-size: 1.5em;
+	}
+
+	.grid-trainer-gap>img
+	{
+	   width:100%;
+	   height:30vh;
+	   border-radius: 10px;
+	   margin-bottom: 20px;
+	}
+	.grid-trainer-gap>h6
+	{
+		font-size: 1.5em;
+	}
+	.grid-trainer-gap>p
+	{
+		font-size: 1.5em;
+	}
+}*/
